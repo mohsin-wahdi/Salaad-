@@ -1,0 +1,130 @@
+		.section-main
+		{
+			height: 100vh;
+			width: 100%;
+			background: #198754;
+			animation-name: anm;
+			animation-duration: 8s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes anm{
+			50%{
+				background: #11ffbd;
+			}
+			100%{
+				background: #87f786;
+			}
+		}
+		.section-1
+		{
+			height: 14vh;
+			width: 100%;
+		}
+		.section-1-right a
+		{
+			text-decoration: none;
+		}
+		.box
+		{
+			height: 400px;
+			width: 300px;
+			background: white;
+		}
+		.section-5
+		{
+			height: 100vh;
+			width: 100%;
+			background: lightgreen;
+		}
+		.section-8
+		{
+			height: 100vh;
+			width: 100%;
+			background: lightgreen;
+		}
+		.adb
+		{
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+		}
+		.img-1
+		{
+			animation-name: abc;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		@keyframes abc{
+			100%
+			{
+			transform: rotate(360deg);
+		}
+		}
+		.acd
+		{
+			width: 100px;
+			height: 100px;
+			border-radius: 100%;
+		}
+		.social
+		{
+			text-align: center;
+		}
+	     .social span
+	     {
+	     	padding: 10px;
+	     	background: lightcoral;
+	     	border-radius: 100px;
+
+	     }
+	     .section-4 img
+	     {
+	     	width: 150px;
+	     	height: 150px;
+	     	border-radius: 100px;
+	     }
+	     .img2
+	     {
+	     	padding: 10px;
+	     	background: #f7783c;
+	     	border-radius: 7px;
+	     	color: white;
+	     }
+	     @media (max-width:768px){
+	     	.section-2 span
+	     	{
+	     		font-size: 35px!important;
+	     	}
+	     }
+	     @media (max-width: 576px){
+	     	.section-1 .de
+	     	{
+	     		padding-left: 30px;
+	     	}
+	     }
+	     @media (max-width: 576px){
+	     	.section-1 .be
+	     	{
+	     		margin-right: 30px;
+	     	}
+	     
+	     .section-4 .card{
+	     	margin-top: -30px !important;
+	     }
+	 }
+	 @media (max-width: 576px){
+	 .section-5 .our
+	 {
+         position: relative;
+         top: 20px;
+	 }
+	}
+	@media (max-width: 576px){
+		.section-5 .out
+		{
+			position: relative;
+			top: 30px;
+		    right: 80px;
+		}
+	}
